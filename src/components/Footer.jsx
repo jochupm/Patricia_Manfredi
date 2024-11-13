@@ -54,8 +54,8 @@ const Footer = () => {
         <Link href="/merceria" className="footer-link">
           Merceria
         </Link>
-        <Link href="/somos" className="footer-link">
-          Somos
+        <Link href="/quienes-somos" className="footer-link">
+          Quienes Somos
         </Link>
         <Link href="/blog" className="footer-link">
           Blog

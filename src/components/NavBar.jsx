@@ -16,13 +16,11 @@ const NavBar = () => {
       </Box>
       <Spacer />
 
-      <Flex align="center" gap="4" className="navbar-links">
-        {/* Primer Menu */}
+      <Flex align="center" gap="8" className="navbar-links" fontFamily="'Basics Serif Free', serif">
         <Button as={Link} to="/cursos" variant="link" className="navbar-button">
-  Cursos-online
-</Button>
+          Cursos-online
+        </Button>
 
-        {/* Segundo Menu */}
         <Menu>
           <MenuButton as={Button} rightIcon={<ChevronDownIcon />} className="navbar-button">
             Moldeteca
@@ -34,16 +32,15 @@ const NavBar = () => {
           </MenuList>
         </Menu>
 
-
         <Button as={Link} to="/merceria" variant="link" className="navbar-button">
-  Merceria
-</Button>
+          Merceria
+        </Button>
 
-        <Button as={Link} to="/about" variant="link" className="navbar-button">
+        <Button as={Link} to="/quienes-somos" variant="link" className="navbar-button">
           Quienes Somos
         </Button>
-        <Button as={Link} to="/contact" variant="link" className="navbar-button">
-          Contacto
+        <Button as={Link} to="/blog" variant="link" className="navbar-button">
+          Blog
         </Button>
         <Button as={Link} to="/en" variant="link" className="navbar-button">
           EN

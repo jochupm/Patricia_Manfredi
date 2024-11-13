@@ -19,15 +19,15 @@ margin: 20px auto;
 display: block;
 }
 
-h1{
+/* h1{
 text-align: center;
 font: Basics Serif Free Regular;
-}
+} */
 
-p{
+/* p{
 text-align: center;
 font: Champagne & Limousines;
-}
+} */
 
 
 
@@ -79,4 +79,38 @@ font: Champagne & Limousines;
 /* Estilo opcional para el logo */
 .navbar-logo {
   width: 100px; /* Ajusta el tamaño según sea necesario */
+}
+
+
+
+.navbar {
+  font-family: Arial, sans-serif;
+  font-size: 1.8rem;
+
+}
+
+.navbar-links {
+  gap: 10rem; /* Espacio entre los elementos */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-button {
+  font-size: 50rem;
+  font-weight: 400;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-button:hover {
+  color: #007acc; /* Color de hover */
+}
+
+.menu-item {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-logo {
+  margin-right: 20px;
 }

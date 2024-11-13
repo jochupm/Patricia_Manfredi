@@ -12,7 +12,8 @@ import CursosDetailContainer from './components/CursosDetailContainer';
 import MoldetecaDetailContainer from './components/MoldetecaDetailContainer';
 import MoldetecaListContainer from './components/MoldetecaListContainer';
 import MerceriaListContainer from './components/MerceriaListContainer';
-
+import QuienesSomos from './components/QuienesSomos';
+import Blog from './components/Blog';
 
 function App () {
 
@@ -35,6 +36,8 @@ function App () {
 
 <Route exact path='/merceria' element={<MerceriaListContainer/>}/>
 
+<Route exact path='/quienes-somos' element={<QuienesSomos/>}/>
+<Route exact path='/blog' element={<Blog/>}/>
 
 
 
